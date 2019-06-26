@@ -39,5 +39,10 @@ private class ClassOne
 		return a*b;
 	}
 	
+	public double computeCircleArea(double radius)
+	{
+		System.out.println("Test Merge in computeCircleArea");
+		return Math.PI*radius*radius;
+	}
 
 }
