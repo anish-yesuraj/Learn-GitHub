@@ -1,6 +1,6 @@
 package test
 
-public class ClassOne
+private class ClassOne
 {
 	public int add(int a, int b)
 	{
@@ -24,11 +24,20 @@ public class ClassOne
 		return a / b;
 	}
 	
+	public int factorial (int a)
+	{
+		if (a<2)
+		{
+			return 1;
+		}
+		System.out.println("Test merge in factorial method");
+		return a * factorial(a - 1);
+	}
+
 	public int rectangleArea(int a, intb)
 	{
 		return a*b;
 	}
-
 	
 
 }
