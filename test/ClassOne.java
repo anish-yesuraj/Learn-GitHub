@@ -19,6 +19,7 @@ public class ClassOne
 	
 	public int divide (int a, int b)
 	{
+		System.out.println("Test Merge in Divide method");
 		return a / b;
 	}
 
