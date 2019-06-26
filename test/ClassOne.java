@@ -28,7 +28,7 @@ private class ClassOne
 		{
 			return 1;
 		}
-		
+		System.out.println("Test merge in factorial method");
 		return a * factorial(a - 1);
 	}
 
