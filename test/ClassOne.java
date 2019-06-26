@@ -23,7 +23,10 @@ public class ClassOne
 		System.out.println("Test Merge in Divide method");
 		return a / b;
 	}
-
 	
+	public double computeCircleArea(double radius)
+	{
+		return Math.PI*radius*radius;
+	}
 
 }
