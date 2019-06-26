@@ -7,6 +7,12 @@ private class ClassOne
 		return a+b;
 	}
 	
+	public int multiply(int a, int b)
+	{
+		System.out.println("Test Merge in Multiply method");
+		return a*b;
+	}
+
 	public int subract(int a, int b)
 	{
 		return a-b;
@@ -14,14 +20,10 @@ private class ClassOne
 	
 	public int divide (int a, int b)
 	{
+		System.out.println("Test Merge in Divide method");
 		return a / b;
 	}
 	
-	public int multiply(int a, int b)
-	{
-		return a*b;
-	}
-
 	public int factorial (int a)
 	{
 		if (a<2)
@@ -32,7 +34,10 @@ private class ClassOne
 		return a * factorial(a - 1);
 	}
 
-
+	public int rectangleArea(int a, intb)
+	{
+		return a*b;
+	}
 	
 
 }
