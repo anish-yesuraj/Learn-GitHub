@@ -26,6 +26,7 @@ public class ClassOne
 	
 	public double computeCircleArea(double radius)
 	{
+		System.out.println("Test Merge in computeCircleArea");
 		return Math.PI*radius*radius;
 	}
 
