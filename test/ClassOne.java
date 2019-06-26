@@ -23,6 +23,11 @@ public class ClassOne
 		System.out.println("Test Merge in Divide method");
 		return a / b;
 	}
+	
+	public int rectangleArea(int a, intb)
+	{
+		return a*b;
+	}
 
 	
 
