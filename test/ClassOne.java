@@ -9,6 +9,7 @@ public class ClassOne
 	
 	public int multiply(int a, int b)
 	{
+		System.out.println("Test Merge in Multiply method");
 		return a*b;
 	}
 
